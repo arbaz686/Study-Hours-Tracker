@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Hours Tracker</title>
+  <!-- Include Chart.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Study Hours Tracker</h1>
+    
+    <!-- Input Section -->
+    <form id="study-form">
+      <label for="study-hours">Hours Studied in Last 12 Hours:</label>
+      <input type="number" id="study-hours" min="0" max="12" required>
+      <button type="submit">Add Data</button>
+    </form>
+
+    <!-- Graph Section -->
+    <div class="graph-container">
+      <canvas id="studyChart"></canvas>
+    </div>
+
+    <!-- Controls -->
+    <button id="reset-data">Reset Data</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
