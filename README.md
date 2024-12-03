@@ -45,24 +45,18 @@ Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Edge).
 
 1. Clone the repository:
 
-   ```
-   
+   ``` 
    git clone https://github.com/arbaz686/Study-Hours-Tracker.git
-   
    ```
 2. Navigate to the project directory:
 
    ```
-   
    cd Study-Hours-Tracker
-   
    ```
 3. Open `index.html` in your browser:
 
    ```
-   
    open index.html
-   
    ```
    Or drag and drop the file into your browser.
 
@@ -100,23 +94,17 @@ Contributions are welcome! Follow these steps:
 2. Create a new branch for your feature or bugfix:
 
    ```
-   
    git checkout -b feature-name
-   
    ```
 3. Commit your changes:
 
    ```
-   
    git commit -m "Add feature-name"
-   
    ```
 4. Push the branch:
 
    ```
-   
    git push origin feature-name
-   
    ```
 5. Open a pull request on the original repository.
 
